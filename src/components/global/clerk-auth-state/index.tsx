@@ -42,6 +42,7 @@ const ClerkAuthState = (props: Props) => {
             labelIcon={<User size={16} />}
           />
         </UserButton>
+        <p className="text-[#9B9CA0]">Profile</p>
       </SignedIn>
     </>
   )
