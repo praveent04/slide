@@ -57,7 +57,7 @@ const Sidebar = ({ slug }: Props) => {
             slug={slug}
           />
         </div>
-        <div className="px-16">
+        <div className="px-16"> 
           <Separator
             orientation="horizontal"
             className="bg-[#333336]"
