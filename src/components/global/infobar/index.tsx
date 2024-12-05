@@ -3,7 +3,7 @@
 
 import { PAGE_BREAD_CRUMBS } from '@/constants/pages'
 import { usePaths } from '@/hooks/user-nav'
-import { Menu, Search } from 'lucide-react'
+import { Menu } from 'lucide-react'
 import React from 'react'
 import Sheet from '../sheet'
 import UpgradeCard from '../sidebar/upgrade'
@@ -14,6 +14,8 @@ import { Separator } from '@/components/ui/separator'
 import Items from '../sidebar/items'
 import { LogoSmall } from '@/svgs/logo-small'
 import CreateAutomation from '../create-automation'
+import Search from './search'
+import Notifications from './notifications'
 
 type Props = {
     slug : string 
@@ -32,7 +34,7 @@ const Navbar = ({ slug }: Props) => {
                 side="left" // Ensure this prop is passed
               > <div
               className="flex flex-col 
-            gap-y-5
+            gap-y-1
              w-full 
              h-full 
              p-3 
@@ -76,7 +78,10 @@ const Navbar = ({ slug }: Props) => {
             </div>
               </Sheet>
             </span>
+           
             <Search />
+            <CreateAutomation />
+            <Notifications />
              
           </div>
         </div>

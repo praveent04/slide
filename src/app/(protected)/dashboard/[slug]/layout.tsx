@@ -1,5 +1,5 @@
 
-import Navbar from '@/components/global/navbar'
+import Navbar from '@/components/global/infobar'
 import Sidebar from '@/components/global/sidebar'
   import React from 'react'
  

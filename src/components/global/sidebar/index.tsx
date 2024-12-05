@@ -59,13 +59,13 @@ const Sidebar = ({ slug }: Props) => {
             slug={slug}
           />
         </div>
-        <div className="px-16"> 
+        <div className="px-16 "> 
           <Separator
             orientation="horizontal"
             className="bg-[#333336]"
           />
         </div>
-        <div className="px-3 flex flex-col gap-y-5">
+        <div className="px-3 flex flex-col gap-y-4">
           <div className="flex gap-x-2">
             <ClerkAuthState />
              
